@@ -1,0 +1,25 @@
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /gameverse/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /gameverse/index.php [L]
+</IfModule>
+
+# END WordPress
+# BEGIN Simply Static
+# As diretrizes (linhas) entre "BEGIN Simply Static" e "END Simply Static" são
+# geradas dinamicamente e só devem ser modificadas através de filtros do WordPress.
+# Quaisquer alterações nas diretivas entre esses marcadores serão sobrescritas.
+<Files "C:\xampp\htdocs\gameverse/wp-content/uploads\simply-static\e3ea6296af31e69b9f28bba8155958bc-debug.txt">
+require all denied
+require host localhost
+</Files>
+# END Simply Static
