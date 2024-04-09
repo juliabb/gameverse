@@ -4,7 +4,8 @@
 O Gameverse é um blog dedicado ao mundo dos jogos, oferecendo uma variedade de conteúdos, incluindo notícias, análises, discussões e uma comunidade interativa. Nosso objetivo é conectar jogadores de todos os tipos, desde os casuais até os mais dedicados, fornecendo um espaço onde possam encontrar informações relevantes, descobrir novos jogos, participar de discussões e fazer novas amizades dentro da comunidade gamer. O Gameverse é projetado para entusiastas de jogos de todas as idades e níveis de experiência, proporcionando uma experiência inclusiva e envolvente para todos os que compartilham uma paixão pelo universo dos jogos.
 
 
-![Logo](https://github.com/juliabb/gameverse/blob/gh-pages/bck-imgs/communityIcon_una83e12b6p01.png)
+
+<img src="https://github.com/juliabb/gameverse/blob/gh-pages/bck-imgs/banner_about.png" width="40%" />
 
 ## Stack utilizada
 
